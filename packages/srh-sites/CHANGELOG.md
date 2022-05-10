@@ -1,3 +1,18 @@
+# srh-sites [3.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@2.1.0...srh-sites@3.0.0) (2022-05-10)
+
+
+### Bug Fixes
+
+* address geezer change ([941870c](https://github.com/dbouwman/sem-rel-harness/commit/941870ce79eb29e1df2ffde1d0fbc9118d8018ed))
+
+
+
+
+
+### Dependencies
+
+* **srh-common:** upgraded to 3.0.0
+
 # srh-sites [2.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@2.0.1...srh-sites@2.1.0) (2022-05-10)
 
 
