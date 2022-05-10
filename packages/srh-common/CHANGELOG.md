@@ -1,3 +1,10 @@
+## srh-common [1.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.0.0...srh-common@1.0.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* **srh-common:** add missing string ([cdb4898](https://github.com/dbouwman/sem-rel-harness/commit/cdb4898733ee5c19a2ba87316764d8ab78a10c11))
+
 # srh-common 1.0.0 (2022-05-10)
 
 
