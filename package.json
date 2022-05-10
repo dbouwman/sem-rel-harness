@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release:dry": "multi-semantic-release --dry-run  --deps.release=inherit --deps.bump=inherit --ignore-private-packages --debug",
-    "oldreleaseold": "npm config set workspaces-update false",
+    "prerelease": "npm config set workspaces-update false",
     "release": "multi-semantic-release --no-ci --deps.release=inherit --deps.bump=inherit --ignore-private-packages"
   },
   "keywords": [],
