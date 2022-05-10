@@ -1,3 +1,10 @@
+# srh-sites [1.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@1.0.1...srh-sites@1.1.0) (2022-05-10)
+
+
+### Features
+
+* **src-sites:** getMoreNames ([0183ce1](https://github.com/dbouwman/sem-rel-harness/commit/0183ce19cf921ced1b7ff43246a5966325dfc67f))
+
 ## srh-sites [1.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@1.0.0...srh-sites@1.0.1) (2022-05-10)
 
 
