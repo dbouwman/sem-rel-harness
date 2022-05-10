@@ -1,3 +1,10 @@
+# srh-common [3.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@3.0.0...srh-common@3.1.0) (2022-05-10)
+
+
+### Features
+
+* add cook and bakeCake ([c59f3a4](https://github.com/dbouwman/sem-rel-harness/commit/c59f3a469fe37d91eabecde36eef15e2983c042c))
+
 # srh-common [3.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.3.0...srh-common@3.0.0) (2022-05-10)
 
 
