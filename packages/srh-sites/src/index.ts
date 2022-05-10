@@ -1,4 +1,4 @@
-import { srhFetch, getPetNames } from 'srh-common';
+import { srhFetch, getGeezerNames } from 'srh-common';
 
 export function getNames(url: string): Promise<string[]> {
   return srhFetch(url);
@@ -11,5 +11,5 @@ export function getMoreNames(url: string): Promise<string[]> {
 }
 
 export function getCatNames(): string[] {
-  return getPetNames().slice(3);
+  return getGeezerNames().slice(3);
 }
