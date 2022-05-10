@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release:dry": "multi-semantic-release --dry-run  --deps.release=inherit --ignore-private-packages --debug",
+    "release:dry": "multi-semantic-release --dry-run  --deps.release=inherit --deps.bump=inherit --ignore-private-packages --debug",
     "prereleaseold": "npm config set workspaces-update false",
 		"release": "multi-semantic-release --deps.release=inherit --ignore-private-packages"
   },
@@ -20,7 +20,12 @@
   "devDependencies": {
     "multi-semantic-release": "^2.12.0"
   },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/dbouwman/sem-rel-harness.git"
+	},
   "release": {
+    "repositoryUrl": "https://github.com/dbouwman/sem-rel-harness.git",
 		"branches": [
 			"master",
 			"next",
