@@ -1,3 +1,10 @@
+# srh-common [3.2.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@3.1.0...srh-common@3.2.0) (2022-05-10)
+
+
+### Features
+
+* add and use parseChangelog - includes next minor in  deps ([8e36bb2](https://github.com/dbouwman/sem-rel-harness/commit/8e36bb2eab57039b7910f39ea9a92edc4a96d130))
+
 # srh-common [3.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@3.0.0...srh-common@3.1.0) (2022-05-10)
 
 
