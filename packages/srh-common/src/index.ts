@@ -7,6 +7,6 @@ export function addEmotion(phrase: string, emote: string) {
   return `${phrase} with ${emote}!!`;
 }
 
-export function getPetNames(): string[] {
+export function getGeezerNames(): string[] {
   return ['Ollie', 'Milo', 'Mr Maize', 'Cheddar', 'Farley'];
 }
