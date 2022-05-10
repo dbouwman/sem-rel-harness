@@ -1,3 +1,10 @@
+## srh-sites [2.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@2.0.0...srh-sites@2.0.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* make sites depend on 2.1.0 of common ([15c9bb1](https://github.com/dbouwman/sem-rel-harness/commit/15c9bb1b6519b21d1402dea8fb2f78ef51e7e196))
+
 # srh-sites [2.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@1.1.0...srh-sites@2.0.0) (2022-05-10)
 
 
