@@ -44,7 +44,7 @@
     }
   ],
   "dependencies": {
-    "srh-common": "1.0.0"
+    "srh-common": "^1.0.0"
   },
   "peerDependencies": {
     "srh-common": "^1.0.0"
