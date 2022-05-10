@@ -1,3 +1,10 @@
+# srh-common [2.2.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.1.0...srh-common@2.2.0) (2022-05-10)
+
+
+### Features
+
+* added more cat names ([f855f65](https://github.com/dbouwman/sem-rel-harness/commit/f855f65e83df772a680dc224f1c3b24280715dd2))
+
 # srh-common [2.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.0.1...srh-common@2.1.0) (2022-05-10)
 
 
