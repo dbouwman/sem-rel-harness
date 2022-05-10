@@ -4,5 +4,5 @@ export function srhFetch(url: string): Promise<string[]> {
 }
 
 export function addEmotion(phrase: string, emote: string) {
-  return `${phrase} with ${emote}`;
+  return `${phrase} with ${emote}!!`;
 }
