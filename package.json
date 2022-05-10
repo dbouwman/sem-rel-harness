@@ -1,0 +1,46 @@
+{
+  "name": "sem-rel-harness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:dry": "multi-semantic-release --dry-run  --deps.release=inherit --ignore-private-packages --debug",
+    "prereleaseold": "npm config set workspaces-update false",
+		"release": "multi-semantic-release --deps.release=inherit --ignore-private-packages"
+  },
+  "keywords": [],
+  "author": "Dave Bouwman",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "demos/*"
+  ],
+  "devDependencies": {
+    "multi-semantic-release": "^2.12.0"
+  },
+  "release": {
+		"branches": [
+			"master",
+			"next",
+			"next-major",
+			{
+				"name": "beta",
+				"prerelease": true
+			},
+			{
+				"name": "alpha",
+				"prerelease": true
+			}
+		],
+		"tagFormat": "${name}@${version}",
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			"@semantic-release/changelog",
+			"@semantic-release/npm",
+			"@semantic-release/git"
+		]
+	}
+}
