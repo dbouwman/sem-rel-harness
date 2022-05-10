@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release:dry": "multi-semantic-release --dry-run  --deps.release=inherit --deps.bump=inherit --ignore-private-packages --debug",
     "oldreleaseold": "npm config set workspaces-update false",
-		"release": "multi-semantic-release --no-ci --deps.release=inherit --deps.bump=inherit --ignore-private-packages"
+    "release": "multi-semantic-release --no-ci --deps.release=inherit --deps.bump=inherit --ignore-private-packages"
   },
   "keywords": [],
   "author": "Dave Bouwman",
@@ -18,34 +18,37 @@
     "demos/*"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^9.0.1",
     "multi-semantic-release": "^2.12.0"
   },
   "repository": {
-		"type": "git",
-		"url": "git+https://github.com/dbouwman/sem-rel-harness.git"
-	},
+    "type": "git",
+    "url": "git+https://github.com/dbouwman/sem-rel-harness.git"
+  },
   "release": {
     "repositoryUrl": "https://github.com/dbouwman/sem-rel-harness.git",
-		"branches": [
-			"main",
-			"next",
-			"next-major",
-			{
-				"name": "beta",
-				"prerelease": true
-			},
-			{
-				"name": "alpha",
-				"prerelease": true
-			}
-		],
-		"tagFormat": "${name}@${version}",
-		"plugins": [
-			"@semantic-release/commit-analyzer",
-			"@semantic-release/release-notes-generator",
-			"@semantic-release/changelog",
-			"@semantic-release/npm",
-			"@semantic-release/git"
-		]
-	}
+    "branches": [
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ],
+    "tagFormat": "${name}@${version}",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ]
+  }
 }
