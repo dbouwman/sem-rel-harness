@@ -1,3 +1,15 @@
+# srh-common [2.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.1.0...srh-common@2.0.0) (2022-05-10)
+
+
+### Bug Fixes
+
+* **srh-common:** Add ladies names ([dbb785d](https://github.com/dbouwman/sem-rel-harness/commit/dbb785d8d0ca8ce3c8761ee9e22dab1cf8acc461))
+
+
+### BREAKING CHANGES
+
+* **srh-common:** Returns additional names
+
 # srh-common [1.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.0.1...srh-common@1.1.0) (2022-05-10)
 
 
