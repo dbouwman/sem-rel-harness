@@ -1,3 +1,10 @@
+## srh-common [2.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.0.0...srh-common@2.0.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* **srh-common:** add missing punctuation ([53d0bb4](https://github.com/dbouwman/sem-rel-harness/commit/53d0bb47de09a39f261e50c76b4767373e10a197))
+
 # srh-common [2.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.1.0...srh-common@2.0.0) (2022-05-10)
 
 
