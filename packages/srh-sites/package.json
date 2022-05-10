@@ -47,7 +47,7 @@
     "srh-common": "1.0.0"
   },
   "peerDependencies": {
-    "srh-common": "1.0.0"
+    "srh-common": "^1.0.0"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",
