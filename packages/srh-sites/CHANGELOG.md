@@ -1,3 +1,10 @@
+# srh-sites [3.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@3.0.1...srh-sites@3.1.0) (2022-05-10)
+
+
+### Features
+
+* add cook and bakeCake ([c59f3a4](https://github.com/dbouwman/sem-rel-harness/commit/c59f3a469fe37d91eabecde36eef15e2983c042c))
+
 ## srh-sites [3.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@3.0.0...srh-sites@3.0.1) (2022-05-10)
 
 
