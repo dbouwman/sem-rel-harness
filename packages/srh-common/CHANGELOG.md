@@ -1,3 +1,10 @@
+# srh-common [1.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.0.1...srh-common@1.1.0) (2022-05-10)
+
+
+### Features
+
+* **srh-common:** add addEmotion ([3cb4c14](https://github.com/dbouwman/sem-rel-harness/commit/3cb4c144ae4e64287abd5f6831f4bee8a8d9335f))
+
 ## srh-common [1.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@1.0.0...srh-common@1.0.1) (2022-05-10)
 
 
