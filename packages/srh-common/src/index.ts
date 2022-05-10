@@ -8,5 +8,5 @@ export function addEmotion(phrase: string, emote: string) {
 }
 
 export function getCatNames(): string[] {
-  return ['Ollie', 'Milo', 'Mr Maize'];
+  return ['Ollie', 'Milo', 'Mr Maize', 'Cheddar', 'Farley'];
 }
