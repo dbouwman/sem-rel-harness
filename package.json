@@ -2,7 +2,7 @@
   "name": "sem-rel-harness",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "Semantic Release Configuration Testing Harness Repo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "Dave Bouwman",
-  "license": "ISC",
+  "license": "MIT",
   "workspaces": [
     "packages/*",
     "demos/*"
@@ -27,7 +27,7 @@
   "release": {
     "repositoryUrl": "https://github.com/dbouwman/sem-rel-harness.git",
 		"branches": [
-			"master",
+			"main",
 			"next",
 			"next-major",
 			{
