@@ -10,3 +10,7 @@ export function addEmotion(phrase: string, emote: string) {
 export function getGeezerNames(): string[] {
   return ['Ollie', 'Milo', 'Mr Maize', 'Cheddar', 'Farley'];
 }
+
+export function cook(item: 'cake' | 'steak'): string {
+  return `I have cooked you a delicious ${item}.`;
+}

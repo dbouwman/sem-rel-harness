@@ -1,4 +1,4 @@
-import { srhFetch, getGeezerNames } from 'srh-common';
+import { srhFetch, getGeezerNames, cook } from 'srh-common';
 
 export function getNames(url: string): Promise<string[]> {
   return srhFetch(url);
@@ -12,4 +12,8 @@ export function getMoreNames(url: string): Promise<string[]> {
 
 export function getCatNames(): string[] {
   return getGeezerNames().slice(3);
+}
+
+export function bakeCake(): string {
+  return cook('cake');
 }
