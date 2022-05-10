@@ -1,3 +1,10 @@
+# srh-common [2.3.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.2.0...srh-common@2.3.0) (2022-05-10)
+
+
+### Features
+
+* **srh-sites:** getCatNames added ([f5c54d7](https://github.com/dbouwman/sem-rel-harness/commit/f5c54d7769a52617e75c4944c509ef090505043d))
+
 # srh-common [2.2.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.1.0...srh-common@2.2.0) (2022-05-10)
 
 
