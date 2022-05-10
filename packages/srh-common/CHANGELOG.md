@@ -1,3 +1,15 @@
+# srh-common [3.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.3.0...srh-common@3.0.0) (2022-05-10)
+
+
+### Bug Fixes
+
+* rename to getGeezerNames ([75a8f5c](https://github.com/dbouwman/sem-rel-harness/commit/75a8f5c4e5f5638d3eb5bb8af7012547a219b66b))
+
+
+### BREAKING CHANGES
+
+* renamed fn to geezer
+
 # srh-common [2.3.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-common@2.2.0...srh-common@2.3.0) (2022-05-10)
 
 
