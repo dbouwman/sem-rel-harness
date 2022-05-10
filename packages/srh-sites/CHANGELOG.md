@@ -1,3 +1,10 @@
+## srh-sites [3.0.1](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@3.0.0...srh-sites@3.0.1) (2022-05-10)
+
+
+### Bug Fixes
+
+* **srh-sites:** carat range on deps after major release ([46d42b7](https://github.com/dbouwman/sem-rel-harness/commit/46d42b71ee68e575d26015a3d3ca9781f1f481c4))
+
 # srh-sites [3.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@2.1.0...srh-sites@3.0.0) (2022-05-10)
 
 
