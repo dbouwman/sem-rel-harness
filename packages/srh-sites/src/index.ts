@@ -1,4 +1,4 @@
-import { srhFetch, getGeezerNames, cook } from 'srh-common';
+import { srhFetch, getGeezerNames, cook, parseChangelog } from 'srh-common';
 
 export function getNames(url: string): Promise<string[]> {
   return srhFetch(url);
@@ -15,5 +15,5 @@ export function getCatNames(): string[] {
 }
 
 export function bakeCake(): string {
-  return cook('cake');
+  return cook('cake') + parseChangelog();
 }

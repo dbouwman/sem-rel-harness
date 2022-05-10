@@ -44,10 +44,10 @@
     }
   ],
   "dependencies": {
-    "srh-common": "^3.0.0"
+    "srh-common": "^3.2.0"
   },
   "peerDependencies": {
-    "srh-common": "^3.0.0"
+    "srh-common": "^3.2.0"
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.8",

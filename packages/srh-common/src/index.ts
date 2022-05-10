@@ -14,3 +14,7 @@ export function getGeezerNames(): string[] {
 export function cook(item: 'cake' | 'steak'): string {
   return `I have cooked you a delicious ${item}.`;
 }
+
+export function parseChangelog(): string {
+  return 'Tommy Changelog says DENIED';
+}
