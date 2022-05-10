@@ -1,3 +1,13 @@
+# srh-sites [2.0.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@1.1.0...srh-sites@2.0.0) (2022-05-10)
+
+
+
+
+
+### Dependencies
+
+* **srh-common:** upgraded to 2.0.0
+
 # srh-sites [1.1.0](https://github.com/dbouwman/sem-rel-harness/compare/srh-sites@1.0.1...srh-sites@1.1.0) (2022-05-10)
 
 
